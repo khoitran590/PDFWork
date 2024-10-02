@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main container */
+.weather-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+/* Header styling */
+.header {
+  font-size: 24px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+/* Input container styling */
+.input-container {
+  margin-bottom: 20px;
+}
+
+.dropzone {
+  border: 2px dashed #007BFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Buttons container styling */
+.button-container,
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Info box styling for download */
+.info_box {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.info_box a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.info_box a:hover {
+  text-decoration: underline;
+}
